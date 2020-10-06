@@ -1,0 +1,13 @@
+
+ favourite_languages = {
+   'jen' : 'python',
+   'sarah' : 'c',
+   'edward' : 'ruby',
+   'phil' : 'python',
+ }
+ poll_invitees = ['tam', 'sam', 'alice', 'kate', 'jen', 'phil']
+ for name in poll_invitees:
+   if name in favourite_languages.keys():
+     print("Thanks for taking our poll, " + name.title())
+   else:
+     print("Please take our poll, " + name.title())
